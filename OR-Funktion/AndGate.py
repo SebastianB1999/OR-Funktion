@@ -16,9 +16,9 @@ class AndGate(object):
 
 
     def execute(self):
-        if self.Input0 == True:
-            if self.Input1 == True:
-                self.Output = True
+        if Input0 == True:
+            if Input1 == True:
+                Output = True
 
     def show(self):
         print("Die Bedingungen sind: "+__str__(self.__Output))
