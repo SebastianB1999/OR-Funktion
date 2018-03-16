@@ -53,7 +53,7 @@ class Test_TestAndGate(unittest.TestCase):
 
     def testcase_08(self):
         a = AndGate()
-        a.sInput0 = True
+        a.Input0 = True
         a.Input1 = True
         a.execute()
         self.assertTrue(a.gebeOutput, "Class ANDGATE: Testcase 8 failed.")
