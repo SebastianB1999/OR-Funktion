@@ -1,8 +1,7 @@
 import unittest
-from AndGate import AndGate
+from And import AndGate
 
 class Test_TestAndGate(unittest.TestCase):
-
     def testcase_01(self):
         a = AndGate()
         a.Input0 = False
@@ -58,7 +57,6 @@ class Test_TestAndGate(unittest.TestCase):
         a.setzeInput1(True)
         a.execute()
         self.assertTrue(a.gebeOutput, "Class ANDGATE: Testcase 8 failed.")
-
 
 if __name__ == '__main__':
     unittest.main()
