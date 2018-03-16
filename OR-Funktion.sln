@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OR-Funktion", "OR-Funktion\OR-Funktion.pyproj", "{1BA8F5C7-AFF0-49D8-979E-67C405D18C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BA8F5C7-AFF0-49D8-979E-67C405D18C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA8F5C7-AFF0-49D8-979E-67C405D18C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E64714D8-3BDD-4B27-8E0B-F4CFF5E81102}
+	EndGlobalSection
+EndGlobal
