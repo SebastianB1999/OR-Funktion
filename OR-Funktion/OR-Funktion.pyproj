@@ -21,11 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AndGate.py">
+    <Compile Include="And.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Logfunc.py" />
-    <Compile Include="OrGate.py">
+    <Compile Include="Or.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TestAndGate.py">

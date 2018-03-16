@@ -12,9 +12,6 @@ class AndGate(object):
         self.__Name = "AndGate"
         return super().__init__(*args, **kwargs)
 
-
-
-
     def execute(self):
         if Input0 == True:
             if Input1 == True:

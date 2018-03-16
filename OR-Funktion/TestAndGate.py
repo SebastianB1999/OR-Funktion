@@ -5,7 +5,6 @@ class Test_TestAndGate(unittest.TestCase):
 
     def testcase_01(self):
         a = AndGate()
-       
         a.Input0 = False
         a.Input1 = False
         a.execute()
