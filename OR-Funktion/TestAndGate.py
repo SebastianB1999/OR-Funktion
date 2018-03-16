@@ -32,29 +32,29 @@ class Test_TestAndGate(unittest.TestCase):
 
     def testcase_05(self):
         a = AndGate()
-        a.setzeInput0(False)
-        a.setzeInput1(False)
+        a.Input0(False)
+        a.Input1(False)
         a.execute()
         self.assertFalse(a.gebeOutput, "Class ANDGATE: Testcase 5 failed.")
 
     def testcase_06(self):
         a = AndGate()
-        a.setzeInput0(True)
-        a.setzeInput1(False)
+        a.Input0(True)
+        a.Input1(False)
         a.execute()
         self.assertFalse(a.gebeOutput, "Class ANDGATE: Testcase 6 failed.")
 
     def testcase_07(self):
         a = AndGate()
-        a.setzeInput0(False)
-        a.setzeInput1(True)
+        a.Input0(False)
+        a.Input1(True)
         a.execute()
         self.assertFalse(a.gebeOutput, "Class ANDGATE: Testcase 7 failed.")
 
     def testcase_08(self):
         a = AndGate()
-        a.setzeInput0(True)
-        a.setzeInput1(True)
+        a.sInput0(True)
+        a.Input1(True)
         a.execute()
         self.assertTrue(a.gebeOutput, "Class ANDGATE: Testcase 8 failed.")
 
