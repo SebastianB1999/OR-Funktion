@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1ba8f5c7-aff0-49d8-979e-67c405d18c0d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>OR_Funktion.py</StartupFile>
+    <StartupFile>Logfunc.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="OR_Funktion.py" />
+    <Compile Include="AndGate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logfunc.py" />
+    <Compile Include="OrGate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestAndGate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestOrGate.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
