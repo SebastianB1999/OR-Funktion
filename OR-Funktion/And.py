@@ -18,21 +18,21 @@ class AndGate(object):
                 Output = True
 
     def show(self):
-        print("Die Bedingungen sind: "+__str__(self.__Output))
+        print("Die Bedingungen sind: "+__str__(Output))
 
-    def __str__(self,wert):
-        return str(wert)
+    def __str__(self,value):
+        return str(value)
         return super().__str__()
 
     # getter/setter
    
     def __setInput0(self,value):
         isinstance(value, bool)
-        self.__Input0 = wert
+        self.__Input0 = value
 
-    def __setInput1(self,wert):
+    def __setInput1(self,value):
         isinstance(value, bool)
-        self.__Input1 = wert
+        self.__Input1 = value
 
     def __getInput0(self):
         return self.__Input0
@@ -52,7 +52,7 @@ class AndGate(object):
 
     def __setOutput(self,value):
         isinstance(value, bool)
-        self.__Output = wert
+        self.__Output = value
 
     # property
 
