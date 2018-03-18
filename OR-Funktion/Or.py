@@ -67,7 +67,7 @@ class OrGate():
     Name = property(__getName,__setName)
     Input0 = property(__getInput0,__setInput0)
     Input1 = property(__getInput1,__setInput1)
-    Output = property(__getOutput,__setOutput)
+    Output = property(__getOutput,)
 
 
 
