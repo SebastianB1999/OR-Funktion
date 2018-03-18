@@ -62,7 +62,7 @@ class OrGate():
         isinstance(value, bool)
         self.__Output = value
 
-    # property
+    ### property
 
     Name = property(__getName,__setName)
     Input0 = property(__getInput0,__setInput0)
